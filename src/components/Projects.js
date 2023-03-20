@@ -22,8 +22,8 @@ const Projects = () => {
     {
       img: portfolio,
       title: "My portfolio",
-      desc: "React project",
-      // code: "https://github.com/sergutt/React-Native-Firebase-project",
+      desc: "React portfolio project",
+      code: "https://github.com/sergutt/SergutT-Portfolio",
     },
   ]; 
 

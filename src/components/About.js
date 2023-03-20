@@ -26,7 +26,7 @@ const About = () => {
             </ul>
           </p>
           <p className="pb-5">
-           I use Git and Github to store my code and version controlling. 
+           I use GitHub to store my code and version controlling. 
           </p>
         </div>
 
