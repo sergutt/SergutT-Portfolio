@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+      <a href="/" className="logo text-3xl font-bold text-accent">
         Sergut Tibebu Frontend Developer
       </a>
 
@@ -19,17 +19,24 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
+            <a href="/#skills">Skills</a>
+          </li>
+          <li>
             <a href="/#projects">Projects</a>
           </li>
-          
           <li>
             <a href="/#contact">Contact</a>
           </li>
-          <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
+          {/* <li>
+            <a
+              href="https://drive.google.com/file/d/1w7qBOBRf7tnaDO71OeORCvlJoAhYvtSYLczxnpZqu-A/view"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
 
@@ -42,11 +49,12 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#skills">Skills</a>
           </li>
-          
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/#projects">Projects</a>
+            <li></li>
+            <a href="/#contact">Contacts</a>
           </li>
           <li>
             <a href="/#resume">Resume</a>

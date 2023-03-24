@@ -37,7 +37,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #7779ff;
 }
 
 .mobile-nav {
@@ -45,7 +45,6 @@ nav li a:hover {
 }
 
 
-/* hero */
 h1 {
     font-family: 'Pacifico', cursive;
     line-height: 1.5 !important;

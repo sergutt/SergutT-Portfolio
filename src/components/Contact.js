@@ -1,3 +1,5 @@
+import React from "react";
+
 const Contact = () => {
   return (
     <section className="bg-secondery px-5 py-32" id="contact">
@@ -16,6 +18,16 @@ const Contact = () => {
         <p className="py-2">
           <span className="font-bold">Phone:</span> 703 740 7146
         </p>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sergut-tibebu-202349a8/view"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Linkedin
+            </a>
+          </li>
       </div>
     </section>
   );
